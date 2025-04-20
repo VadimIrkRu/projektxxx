@@ -4,20 +4,20 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        //создали строку для пользователя
-        System.out.print("Введите ваше имя: ");
-        // просто печатаем текст
-        String username = scan.nextLine();
-        // получаем строку от пользователя!!!!
-        System.out.print("Привет: " + username);
-        // печатаем текст  Привет и строку которую получили от пользователя
+        System.out.print("Введите число 1: ");
+        Float num1 = scan.nextFloat();
+        System.out.print("Введите число 2: ");
+        Float num2 = scan.nextFloat();
+        Float res1 = num1 + num2;
+        Float res2 = num1 - num2;
+        Float res3 = num1 * num2;
+        Float res4 = num1 / num2;
+        Float res5 = num1 % num2;
 
-        // вводим то что хотим получить от пользователя - переменная называется scan
-        int num1 = scan.nextInt();
-        byte num2 = scan.nextByte();
-        boolean b = scan.nextBoolean();
-        float num3 = scan.nextFloat();
-        
+
+        System.out.println("Результат: " );
+        System.out.println(res1 + "\n" + res2 + "\n" + res3 + "\n" + res4 + "\n" + res5);
+
 
     }
 }
