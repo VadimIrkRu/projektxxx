@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args){
         //comment
-        System.out.print("Все что напишу \\\n\t\"напечатается в консоли\" ");
-/*comment
- comment1
- comment2
-*/
+        System.out.println("Переменные и типы данных");
+
+      int age = 56;
+        System.out.println("Возраст: " + age + " лет");
+        age = 24;
+        System.out.println("Возраст: " + age + " года");
+
     }
 }
